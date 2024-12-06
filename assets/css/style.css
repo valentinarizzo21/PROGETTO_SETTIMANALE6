@@ -2,4 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+body{
+    height: 100vh;
+}
+
+i{
+    color: white;
+    margin: 1rem;
+}
+
+img{
+    background-color: transparent;
+}
+
+.userLogo{
+    width: 25px;
+    background-color: transparent;
+}
+
+.services{
+    padding: 1rem;
+}
+
+.ifot{
+    margin: 0;
 }
