@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="position-relative">
+      <!--SCELGO MENU' A SCROLL + DROPDOWN PROFILO-->
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" style="width: 200px" href="#"
+              ><img
+                src="assets/netflix_logo.png"
+                alt="logoNetflix"
+                class="w-50"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tv Shows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recently Added</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My list</a>
+                </li>
+              </ul>
+              <span class="d-flex align-items-center">
+                <p class="h4 text-white">KIDS</p>
+                <i class="bi bi-search"></i>
+                <div class="dropdown">
+                  <a
+                    class="btn btn-secondary dropdown-toggle border border-0 bg-dark"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="assets/avatar.png"
+                      alt="userNetflix"
+                      class="userLogo"
+                    />
+                  </a>
+                  <ul class="dropdown-menu bg-dark text-white">
+                    <p class="text-center">EPICODER # 1</p>
+                    <li>
+                      <a class="dropdown-item text-white" href="#"
+                        >Manage Profiles</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Account</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#"
+                        >Help Center</a
+                      >
+                    </li>
+                    <br />
+                    <li>
+                      <a class="dropdown-item text-white" href="#"
+                        >Singout Netflix</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--FINE MENU' SCROLL + ACCOUNT DROPDOWN-->
+      <div class="container-fluid bg-dark p-3">
+        <div
+          class="row justify-content-between align-items-center"
+          style="width: 100%"
+        >
+          <p class="h2">TV shows</p>
+          <div class="dropdown d-flex" style="width: fit-content">
+            <a
+              class="btn btn-secondary dropdown-toggle border border-1 bg-dark align-self-start"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Genres
+            </a>
+            <ul class="dropdown-menu bg-dark text-white">
+              <li>
+                <a class="dropdown-item text-white" href="#">Crime</a>
+              </li>
+              <li><a class="dropdown-item text-white" href="#">Horror</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Romances</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Drama</a>
+              </li>
+            </ul>
+          </div>
+          <div class="align-self-center" style="width: fit-content">
+            <i class="bi bi-list border border-1 p-2"></i>
+            <i class="bi bi-grid border border-1 p-2"></i>
+          </div>
+        </div>
+      </div>
+      <!--SECONDA PARTE DELLA HEADER-->
+    </header>
+    <main class="bg-dark">
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-3 col-lg-1"></div>
+            <div class="col-6 col-lg-10 d-flex flex-column">
+              <h1 class="text-center">Edit Profile</h1>
+              <hr />
+              <div class="d-flex">
+                <img
+                  src="assets/avatar.png"
+                  alt="userLogo"
+                  style="width: 150px"
+                  class="align-self-start"
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="epicodeBtn w-100 border border-0 p-3 my-3 d-l"
+                >
+                  Epicoder #1
+                </button>
+                <p class="h2 text-secondary fw-light my-2">Language:</p>
+                <div class="btn-group w-75">
+                  <button
+                    type="button"
+                    class="langBtn btn btn-secondary dropdown-toggle d-flex justify-content-start align-items-center"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                </div>
+                <hr />
+                <p class="h2 text-secondary fw-light my-2">
+                  Maturing settings:
+                </p>
+                <p class="maturingP p-2 w-75 my-2">ALL MATURITING SETTINGS</p>
+                <p class="h3 fw-lighter">
+                  Show files for all maturity settings for this profile
+                </p>
+                <button class="btn">EDIT</button>
+                <hr />
+                <p class="h2 text-secondary fw-light my-2">
+                  Autoplay Controls:
+                </p>
+                <div class="form-check d-flex">
+                  <input
+                    class="form-check-input align-self-center"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label
+                    class="form-check-label h3 fw-lighter p-3"
+                    for="flexCheckDefault"
+                  >
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
+                <div class="form-check d-flex">
+                  <input
+                    class="form-check-input align-self-center"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label
+                    class="form-check-label d-block h3 fw-lighter p-3"
+                    for="flexCheckChecked"
+                  >
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
+                <hr />
+                <button
+                  type="submit"
+                  class="fw-bold bg-white p-1 text-black border border-0 w-50 my-1"
+                >
+                  SAVE
+                </button>
+                <button
+                  type="submit"
+                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-75 p-3 my-1"
+                >
+                  CANCEL
+                </button>
+                <button
+                  type="submit"
+                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-100 p-3 my-1 mb-5"
+                >
+                  DELETE PROFILE
+                </button>
+              </div>
+            </div>
+            <div class="col-3 col-lg-1"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

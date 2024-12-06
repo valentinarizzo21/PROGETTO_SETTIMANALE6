@@ -30,3 +30,26 @@ img{
 .ifot{
     margin: 0;
 }
+
+.epicodeBtn, .maturingP{
+    background-color: #929292;
+}
+
+.langBtn{
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.langBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.form-check-input{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #929292;
+}
