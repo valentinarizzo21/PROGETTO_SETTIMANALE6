@@ -79,14 +79,17 @@
                       class="userLogo"
                     />
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-end mt-3  bg-dark text-white">
+                  <ul
+                    class="dropdown-menu dropdown-menu-end mt-3 bg-dark text-white"
+                  >
                     <p class="text-center">
-                        <img
-                      src="assets/avatar.png"
-                      alt="userNetflix"
-                      class="userLogo"
-                    />
-                        EPICODER # 1</p>
+                      <img
+                        src="assets/avatar.png"
+                        alt="userNetflix"
+                        class="userLogo"
+                      />
+                      EPICODER # 1
+                    </p>
                     <li>
                       <a class="dropdown-item text-white" href="#"
                         >Manage Profiles</a
@@ -101,7 +104,7 @@
                       >
                     </li>
                     <br />
-                    <hr>
+                    <hr />
                     <li>
                       <a class="dropdown-item text-white" href="#"
                         >Singout Netflix</a
@@ -155,99 +158,99 @@
     <main class="bg-dark">
       <section>
         <div class="container">
-            <h1 class="text-center display-1">Edit Profile</h1>
-              <hr />
+          <h1 class="text-center display-1">Edit Profile</h1>
+        <hr />
           <div class="row justify-content-center">
-              <div class="imgage d-flex col-lg-4">
-                <img
-                  src="assets/avatar.png"
-                  alt="userLogo"
-                  style="width: 250px"
-                  class="align-self-start"
-                />
-              </div>
-              <div class="text d-flex flex-column col-lg-8">
+            <div class="imgage d-flex justify-content-center col-lg-4">
+              <img
+                src="assets/avatar.png"
+                alt="userLogo"
+                style="width: 200px"
+                class="align-self-start"
+              />
+            </div>
+            <div class="text d-flex flex-column col-lg-8">
+              <button
+                type="submit"
+                class="epicodeBtn btn btn-secondary w-25 border-0 p-3"
+              >
+                Epicoder #1
+              </button>
+              <p class="h2 text-secondary fw-light my-4">Language:</p>
+              <div class="btn-group w-25">
                 <button
-                  type="submit"
-                  class="epicodeBtn w-100 border border-0 p-3 my-3 d-l"
+                  type="button"
+                  class="langBtn btn btn-secondary dropdown-toggle d-flex justify-content-start align-items-center"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  Epicoder #1
+                  English
                 </button>
-                <p class="h2 text-secondary fw-light my-2">Language:</p>
-                <div class="btn-group w-75">
-                  <button
-                    type="button"
-                    class="langBtn btn btn-secondary dropdown-toggle d-flex justify-content-start align-items-center"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    English
-                  </button>
-                </div>
-                <hr />
-                <p class="h2 text-secondary fw-light my-2">
-                  Maturing settings:
-                </p>
-                <input type="text" placeholder="ALL MATURING SETTINGS" class="maturingP p-2 w-75 my-3"></input>
-                <p class="h3 fw-lighter">
-                  Show files for all maturity settings for this profile
-                </p>
-                <button class="btn">EDIT</button>
-                <hr />
-                <p class="h2 text-secondary fw-light my-2">
-                  Autoplay Controls:
-                </p>
-                <div class="form-check d-flex">
-                  <input
-                    class="form-check-input align-self-center bg-transparent"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                  <label
-                    class="form-check-label h3 fw-lighter p-3"
-                    for="flexCheckDefault"
-                  >
-                    Autoplay next episode in a series on all devices
-                  </label>
-                </div>
-                <div class="form-check d-flex">
-                  <input
-                    class="form-check-input align-self-center bg-transparent"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                    checked
-                  />
-                  <label
-                    class="form-check-label d-block h3 fw-lighter p-3"
-                    for="flexCheckChecked"
-                  >
-                    Autoplay next episode in a series on all devices
-                  </label>
-                </div>
-                <hr />
+              </div>
+              <hr />
+              <p class="h2 text-secondary fw-light my-4">Maturing settings:</p>
+              <input
+                type="text"
+                placeholder="ALL MATURING SETTINGS"
+                class="maturingP p-2 w-50"
+              />
+              <p class="h3 fw-lighter my-4">
+                Show files for all maturity settings for this profile:
+              </p>
+              <button class="btn btn-secondary w-25">EDIT</button>
+              <hr />
+              <p class="h2 text-secondary fw-light my-2">Autoplay Controls:</p>
+              <div class="form-check d-flex">
+                <input
+                  class="form-check-input align-self-center bg-transparent"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label
+                  class="form-check-label h3 fw-lighter p-3"
+                  for="flexCheckDefault"
+                >
+                  Autoplay next episode in a series on all devices
+                </label>
+              </div>
+              <div class="form-check d-flex">
+                <input
+                  class="form-check-input align-self-center bg-transparent"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label
+                  class="form-check-label d-block h3 fw-lighter p-3"
+                  for="flexCheckChecked"
+                >
+                  Autoplay next episode in a series on all devices
+                </label>
+              </div>
+              <hr />
+              <div class="w-50 d-flex flex-column">
                 <button
                   type="submit"
-                  class="fw-bold bg-white p-2 text-black border border-0 w-50 my-1"
+                  class="fw-bold bg-white p-2 text-black border border-0 w-25 my-1 p-3"
                 >
                   SAVE
                 </button>
                 <button
                   type="submit"
-                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-75 p-3 my-1"
+                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-50 p-3 my-1"
                 >
                   CANCEL
                 </button>
                 <button
                   type="submit"
-                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-100 p-3 my-1 mb-5"
+                  class="fw-bold bg-transparent text-bg-secondary border-1 border-secondary-subtle w-75 p-3 my-1 mb-5"
                 >
                   DELETE PROFILE
                 </button>
               </div>
-            
-          
+            </div>
           </div>
         </div>
       </section>

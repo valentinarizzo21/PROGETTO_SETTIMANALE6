@@ -22,6 +22,7 @@ main img{
 
 main img:hover{
     cursor: pointer;
+    box-shadow: 3px 3px 3px 3px rgba(234, 232, 232, 0.2);
 }
 
 img{
